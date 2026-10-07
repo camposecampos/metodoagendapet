@@ -157,6 +157,18 @@ footer a{overflow-wrap:anywhere}
   .benefits{grid-template-columns:1fr 1fr;gap:13px;font-size:10px}.section{padding:62px 0}.four,.two,.three,.split,.offer{grid-template-columns:1fr}.four{gap:12px}.card{padding:22px}.card .number{margin-bottom:12px}.offer{padding:27px 20px;gap:25px;border-radius:24px}.pricecard{padding:25px}.price{font-size:56px}footer .wrap{display:block}footer p{margin-top:20px;padding-bottom:42px}.support{right:14px;bottom:14px}.step{padding-bottom:12px}.split{gap:32px}.intro{margin-bottom:26px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.card{transition:none}}
+@media(max-width:660px){
+  html,body{max-width:100%;overflow-x:hidden}
+  .wrap{width:100%;max-width:100%}
+  .navlinks{display:none}
+  .hero,.hero>div,.hero-actions,.hero-visual{min-width:0;max-width:100%}
+  .hero h1{font-size:38px;line-height:1.04;letter-spacing:-1.8px}
+  .hero-actions{width:100%;display:grid;grid-template-columns:1fr;gap:10px}
+  .hero .btn{width:100%;max-width:100%;min-height:52px;padding:14px 12px;font-size:12px;white-space:normal;text-align:center}
+  .media-grid{grid-template-columns:1fr}
+  .support.whatsapp{right:14px;bottom:calc(14px + env(safe-area-inset-bottom));width:56px;height:56px;max-width:56px;min-width:56px;padding:0;border-radius:50%;justify-content:center;overflow:hidden}
+  .support.whatsapp .wa-label{display:none}
+}
 </style>
 </head>
 <body id="topo">
